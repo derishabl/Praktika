@@ -30,3 +30,4 @@ inline void generateRandom(vector<int>& arr, int size) {
     uniform_int_distribution<int> dist(1, 100);
     for (int i = 0; i < size; i++) arr.push_back(dist(gen));
 }
+
